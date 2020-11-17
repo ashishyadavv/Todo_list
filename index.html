@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+   <!-- CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+        <!-- jQuery and JS bundle w/ Popper.js -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.js" integrity="sha512-14GPUgKFTeCsgj5WWZpTNQ525GYlOK3DMTqrjsly3TDIDnOUbZ5sWyfI6HqsWUmMmaCoa6q7FHrbq9xdqNhmYg==" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div id="container" span class="border border-dark"></span>> 
+    <h1 align='center'><i class="fas fa-check-circle"></i>Todo</h1>
+    <div class="row">
+        <div class="col-7 m-4" align='center'>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Add Task</label>
+              <input type="input" class="form-control shadow p-3 mb-5 bg-white rounded" id="inpTask" aria-describedby="emailHelp">
+              <!-- <small id="inpTask1" class="form-text text-muted">Add your task in one line.</small> -->
+            </div>
+
+            
+            
+        </div>
+       <div class="row">
+
+        <div class="col-4 m-4">
+            <button  class="btn btn-success m-2 col " disabled id="btnAdd">Add <i class="fa fa-plus"></i></button>
+            <button  class="btn btn-danger m-2 col " disabled id="btnClear"><i class="fas fa-backspace"></i>Clear</button>
+            
+    
+        </div>
+        <div class="col-4 m-4">
+            <button  class="btn btn-info m-2 col" disabled id="btnSort">sort <i class="fa fa-sort-amount-down"></i></button>
+            <button  class="btn btn-warning m-2 col " disabled id="btnResidue"><i class="fas fa-trash-alt"></i>Residue</button>
+            
+    
+        </div>
+ 
+       </div>
+               
+    </div>
+    
+    <div>
+        <ul  id="ulTask">
+            <!-- <li class="list-group-item active">Cras justo odio</li>
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">Vestibulum at eros</li> -->
+          </ul>
+    </div>
+    
+</div>
+</body>
+</html>

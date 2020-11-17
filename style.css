@@ -1,0 +1,8 @@
+#ulTask li.done{
+    color: aquamarine;
+    text-decoration: line-through;
+}
+#container{
+    background-color: darkgrey;
+    height: 100vh;
+}
